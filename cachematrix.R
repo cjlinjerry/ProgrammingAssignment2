@@ -1,3 +1,7 @@
+# Step 1: Initialize objects
+# Step 2: Define the "behaviors" or functions for objects of type makeCacheMatrix()
+# Create a new object by returning a list()
+
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
         set <- function(y) {
@@ -11,6 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
              setsolve = setsolve,
              getsolve = getsolve)
 }
+
 cacheSolve <- function(x, ...) {
         m <- x$getsolve()
         if(!is.null(m)) {
