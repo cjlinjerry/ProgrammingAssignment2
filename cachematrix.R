@@ -1,4 +1,5 @@
 # This function creates a special "matrix" object that can cache its inverse
+
 # Step 1: Initialize objects
 # Step 2: Define the "behaviors" or functions for objects of type makeCacheMatrix()
 # Create a new object by returning a list()
